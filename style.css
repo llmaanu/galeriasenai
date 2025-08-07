@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dcdcdc;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 90%;
+  max-width: 700px;
+}
+
+.logo {
+  width: 420px;
+  margin-bottom: 20px;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrow {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.image-box {
+    background-color: #000000;
+    width: 900px; /* antes era 750px */
+    height: 450px; /* antes era 350px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ou 'cover' para preencher tudo mesmo cortando partes */
+  }
+  
+
+.descricao {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #000;
+}
